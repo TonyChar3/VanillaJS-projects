@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="clsss.css">
+</head>
+<body>
+    <div class="acc-container">
+        <h2>Welcome to the BANK</h2>
+        <input id="name-input" type="text" placeholder="Enter your name:">
+        <button onclick="getAccnt()">SEARCH</button>
+        <div class="acc-info">
+            <h4>Account Balance</h4>
+            <input id="acc-balance" type="number" placeholder="---" readonly>
+            <input id="deposit" type="number" placeholder="---" >
+            <button id="depo-btn">DEPOSIT</button>
+            <input id="Remove" type="number" placeholder="---" >
+            <button id="remov-btn">WITHDRAW</button>
+        </div>
+    </div>
+    <div id="error-message">
+
+    </div>
+    <script src="classes.js"></script>
+</body>
+</html>

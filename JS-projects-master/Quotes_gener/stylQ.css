@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/pexels-lucía-montenegro-12185637.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Aboreto',cursive;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 60%;
+    color: white;
+}
+
+.container > span{
+    font-size: 1.5em;
+    position: relative;
+}
+
+.btns-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1em;
+    padding: .5em;
+}
+
+.btn{
+    padding: .5em;
+    border-radius: 15px;
+    border: 2px solid white;
+    background-color: grey;
+    color: white;
+    font-family: 'Aboreto';
+}
+
+.btn:active{
+    transform: scale(0.95);
+}

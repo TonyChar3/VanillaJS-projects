@@ -1,0 +1,22 @@
+#red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+#yellow{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+#green{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
