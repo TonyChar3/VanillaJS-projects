@@ -1,1 +1,1 @@
-Vanilla Javascript quick small projects Daily!
+Vanilla Javascript quick small projects!
